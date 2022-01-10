@@ -1,4 +1,8 @@
-/** Copy and Paste the code here 
-  * If your code contains more than one class, 
-  * be sure to paste the second class at the end 
-  */
+void draw() {
+  background(0,100,100);
+  stroke(255);
+  
+  float distance_top = random(100);
+  
+  line(0,distance_top, 99,distance_top);
+}
